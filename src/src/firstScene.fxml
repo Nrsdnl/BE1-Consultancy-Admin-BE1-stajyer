@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="577.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="name" layoutX="109.0" layoutY="111.0" promptText="Ad" />
+      <TextField fx:id="surname" layoutX="109.0" layoutY="142.0" promptText="Soyad" />
+      <TextField fx:id="tc" layoutX="109.0" layoutY="172.0" promptText="TC" />
+      <Button fx:id="add" disable="true" layoutX="441.0" layoutY="311.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Kişi Ekle" />
+      <Button fx:id="add1" layoutX="109.0" layoutY="244.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" text="Tarih" />
+      <Label layoutX="20.0" layoutY="21.0" mouseTransparent="true" prefHeight="51.0" prefWidth="149.0" text="       Personel Kayıt" textAlignment="JUSTIFY">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/BE1-003-006/Downloads/image001.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Label>
+      <Label layoutX="44.0" layoutY="115.0" text="Ad" />
+      <Label layoutX="44.0" layoutY="146.0" text="Soyad" />
+      <Label layoutX="45.0" layoutY="176.0" text="TC kimlik" />
+      <Label layoutX="224.0" layoutY="72.0" prefHeight="17.0" prefWidth="117.0" text="Yeni Personel Kaydı" />
+      <Label layoutX="45.0" layoutY="209.0" text="Tarih Seç" />
+      <Label layoutX="275.0" layoutY="115.0" text="Medeni Durum" />
+      <SplitMenuButton fx:id="status" layoutX="376.0" layoutY="111.0" mnemonicParsing="false" text="Durum">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Evli" />
+          <MenuItem mnemonicParsing="false" text="Bekar" />
+        </items>
+      </SplitMenuButton>
+      <Label layoutX="275.0" layoutY="146.0" text="Çocuk Sayısı" />
+      <SplitMenuButton fx:id="child" layoutX="376.0" layoutY="142.0" mnemonicParsing="false" text="Çocuk">
+         <items>
+            <MenuItem mnemonicParsing="false" text="0" />
+            <MenuItem mnemonicParsing="false" text="1" />
+            <MenuItem mnemonicParsing="false" text="2" />
+            <MenuItem mnemonicParsing="false" text="3" />
+            <MenuItem mnemonicParsing="false" text="4" />
+            <MenuItem mnemonicParsing="false" text="5" />
+            <MenuItem mnemonicParsing="false" text="6" />
+            <MenuItem mnemonicParsing="false" text="7" />
+            <MenuItem mnemonicParsing="false" text="8" />
+         </items>
+      </SplitMenuButton>
+      <TextField fx:id="DateLabel" disable="true" layoutX="109.0" layoutY="205.0" promptText="GG.AA.YYYY" />
+      <RadioButton fx:id="Update" layoutX="379.0" layoutY="176.0" mnemonicParsing="false" text="Güncelle" />
+      <Label layoutX="275.0" layoutY="176.0" text="Bilgi Güncelle" />
+      <Label layoutX="275.0" layoutY="209.0" text="Bilgi Düzeltme" />
+      <RadioButton fx:id="fix" layoutX="379.0" layoutY="209.0" mnemonicParsing="false" text="Düzelt" />
+      <Button fx:id="yükle" layoutX="357.0" layoutY="315.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="26.0" text="Yükle">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/BE1-003-006/Desktop/images1.jpg" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+      <Label layoutX="277.0" layoutY="248.0" prefHeight="17.0" prefWidth="85.0" text="Adli sicil Belgesi" />
+      <Label layoutX="275.0" layoutY="281.0" prefHeight="17.0" prefWidth="66.0" text="İkametgah" />
+      <Label layoutX="273.0" layoutY="281.0" />
+      <Label layoutX="276.0" layoutY="264.0" prefHeight="17.0" prefWidth="94.0" text="Kimlik Fotokopisi" />
+      <Label layoutX="275.0" layoutY="298.0" prefHeight="17.0" prefWidth="66.0" text="Resim" />
+      <Label fx:id="tik" layoutX="392.0" layoutY="248.0" prefHeight="11.0" prefWidth="15.0" text="a" visible="false">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/BE1-003-006/Desktop/download12.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Label>
+      <Label fx:id="tik1" layoutX="392.0" layoutY="264.0" prefHeight="11.0" prefWidth="15.0" text="a" visible="false">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/BE1-003-006/Desktop/download12.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Label>
+      <Label fx:id="tik2" layoutX="392.0" layoutY="281.0" prefHeight="11.0" prefWidth="15.0" text="a" visible="false">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/BE1-003-006/Desktop/download12.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Label>
+      <Label fx:id="tik3" layoutX="392.0" layoutY="298.0" prefHeight="11.0" prefWidth="15.0" text="a" visible="false">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/BE1-003-006/Desktop/download12.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Label>
+      <Button fx:id="yükle1" layoutX="224.0" layoutY="315.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="26.0" text="Yükle">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/BE1-003-006/Desktop/images1.jpg" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+      <TextField fx:id="DateLabel1" disable="true" layoutX="109.0" layoutY="277.0" prefHeight="25.0" prefWidth="138.0" promptText="url" />
+      <Label layoutX="25.0" layoutY="281.0" text="Database Seç" />
+   </children>
+</AnchorPane>
